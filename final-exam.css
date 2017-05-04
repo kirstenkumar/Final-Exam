@@ -1,0 +1,24 @@
+.container {
+  margin: 0 auto;
+  background: #EBEEF0;
+  max-width:700px;
+  overflow: auto;
+}
+body {
+  background: #003F6A;
+}
+* {
+  box-sizing: border-box;
+}
+@media (min-width: 500px) {
+.column-left {
+  float: left;
+  width: 67%;
+  box-sizing: border-box;
+}
+.column-right {
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+}
+}
