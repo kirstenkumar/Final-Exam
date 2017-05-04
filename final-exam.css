@@ -7,6 +7,9 @@
 body {
   background: #003F6A;
 }
+img {
+  max-width: 400px;
+}
 * {
   box-sizing: border-box;
 }
@@ -26,6 +29,15 @@ h2 {
   font-size: 24px;
   font-style: italic;
   font-family: "Georgia";
+}
+.events {
+  background-color: white;
+  padding: 5px;
+  border: 3px dashed slategrey;
+  max-width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .sourceline {
   border-bottom: 5px solid #E8E8E8;
